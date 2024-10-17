@@ -124,6 +124,9 @@ print(multiarray)
 multiarray <- array(c(1:24), dim=c(4, 3, 2))
 print(multiarray[2, 3, 2])
 
+print(dim(multiarray))
+
+print(length(multiarray))
 
 
 
