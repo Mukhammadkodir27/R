@@ -124,6 +124,18 @@ for(rows in 1:nrow(this_matrix)){
   }
 }
 
+matrix1 <- matrix(c(1, 1, 1, 1), nrow=2, ncol=2)
+matrix2 <- matrix(c(2, 2, 2, 2), nrow=2, ncol=2)
+
+#matrix combined as a row
+matrix_combined <- rbind(matrix1, matrix2)
+print(matrix_combined)
+
+#matrix combined as a column
+matrix_combined2 <- cbind(matrix1, matrix2)
+print(matrix_combined2)
+
+
 
 
 
