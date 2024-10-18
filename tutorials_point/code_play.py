@@ -128,6 +128,31 @@ print(dim(multiarray))
 
 print(length(multiarray))
 
+#-*-*-*#
+
+#Creating a data frame
+Data_Frame <- data.frame(
+  Training = c("Strength", "Stamina", "Others"), 
+  Pulse = c(100, 150, 120), 
+  Duration = c(60, 30, 45)
+)
+
+print(Data_Frame)
+summary(Data_Frame)
+
+print(Data_Frame[2])
+print(Data_Frame[["Duration"]])
+print(Data_Frame$Training)
+
+print(dim(Data_Frame))
+print(nrow(Data_Frame))  
+print(ncol(Data_Frame))
+
+print(length(Data_Frame))
+
+music_genre <- factor(c("Jazz", "Rock", "Classic", "Classic", "Pop", "Jazz", "Rock", "Jazz"))
+
+music_genre
 
 
 
